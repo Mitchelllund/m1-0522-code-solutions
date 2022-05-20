@@ -55,6 +55,7 @@ select {
   border-radius: 8px;
   border: 2px solid lightgrey;
   background-color: #f5f3f3;
+  margin-top: 8px;
 }
 
 button {
