@@ -1,0 +1,72 @@
+body {
+  background-color: #188cd4ea;
+  color: white;
+  margin-top: 50px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+}
+
+.image-holder {
+  width: 120px;
+  height: 120px;
+  border-radius: 80px;
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.column-one-third {
+  width: 30%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-text {
+  text-align: -webkit-center;
+}
+
+.merge {
+  background-image: url("images/merge.png");
+}
+
+.computing {
+  background-image: url("images/cloud-computing.png");
+}
+
+.discussion {
+  background-image: url("images/discussion.png");
+}
+
+.margin-bot {
+  margin-bottom: 10px;
+}
+
+.justify-space {
+  justify-content: space-between;
+}
+
+.text-font {
+  font-size: 18px;
+}
+
+.gray {
+  color: lightgray;
+}
