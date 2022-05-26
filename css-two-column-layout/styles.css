@@ -4,30 +4,6 @@
   font-weight: 400;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  margin: 25px auto;
-  justify-content: center;
-}
-
-.column {
-  text-align: center;
-}
-
-.column-half {
-  width: calc(85% / 2);
-  margin-right: 55px;
-}
-
-.column-picture {
-  width: 15%;
-}
-
 h1 {
   font-size: 68px;
 }
@@ -43,10 +19,6 @@ h4 {
   width: 250px;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 p {
   max-width: 850px;
   line-height: 30px;
@@ -58,4 +30,33 @@ button {
   border: 2px solid orangered;
   background-color: white;
   color: orangered;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-half {
+  width: calc(100% / 2);
+  display: flex;
+  align-items: flex-start;
+}
+
+.column-half p {
+  max-width: 400px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
