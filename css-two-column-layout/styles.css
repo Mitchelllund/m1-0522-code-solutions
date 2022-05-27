@@ -1,0 +1,62 @@
+* {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h1,
+h4,
+button {
+  font-weight: 700;
+}
+
+h4 {
+  margin-bottom: 0;
+  width: 250px;
+}
+
+p {
+  max-width: 850px;
+  line-height: 30px;
+}
+
+button {
+  width: 175px;
+  height: 40px;
+  border: 2px solid orangered;
+  background-color: white;
+  color: orangered;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-half {
+  width: calc(100% / 2);
+  display: flex;
+  align-items: flex-start;
+}
+
+.column-half p {
+  max-width: 400px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
