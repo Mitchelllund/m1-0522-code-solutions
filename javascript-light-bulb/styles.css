@@ -1,0 +1,32 @@
+body {
+  background-color: #181818;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.toggle {
+  background-color: rgb(41 41 41);
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 0 -15px 1px 5px rgb(15 15 15);
+  border: 0;
+  transition: 0.1s;
+}
+
+.toggle.active {
+  background-color: #fff3b0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: inset 0 50px 200px rgb(239 241 108);
+  border: 0;
+  transition: 0.1s;
+}
+
+body.active {
+  background-color: #fcf9ee;
+}
