@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: papayawhip;
+  }
+}
