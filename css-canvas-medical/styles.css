@@ -1,0 +1,196 @@
+* {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.column-half {
+  width: calc(100% / 2);
+  align-self: center;
+}
+
+hr {
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 1px;
+}
+
+.blue-logo {
+  background-image: url("images/logo-blue.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 30px;
+}
+
+.white-logo {
+  background-image: url("images/logo-white.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 205px;
+  height: 40px;
+}
+
+button {
+  height: 50px;
+  width: 125px;
+  align-self: center;
+  background-color: #003049;
+  border: #003049;
+  border-radius: 5px;
+}
+
+.hero {
+  height: 650px;
+  background-image: url("images/hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text {
+  position: relative;
+  width: calc(100% / 2);
+  margin: 10% 15% 15% 5%;
+}
+
+.text > button {
+  width: 200px;
+  margin-top: 15px;
+}
+
+.text > p {
+  line-height: 1.6;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-size: 19px;
+}
+
+h1 {
+  width: 450px;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(15 15 15 / 85%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.column-full {
+  width: 100%;
+  text-align: center;
+}
+
+.column-fourth {
+  margin-top: 6%;
+}
+
+.width-50 {
+  width: calc(100% / 2);
+  margin: auto;
+}
+
+.column-half > p {
+  width: 260px;
+  line-height: 1.5;
+}
+
+.dark-grey {
+  color: #555;
+}
+
+.grey {
+  color: grey;
+}
+
+.white {
+  color: white;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-even {
+  justify-content: space-evenly;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background-grey {
+  background-color: #555;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-450 {
+  height: 450px;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.gap {
+  gap: 50px;
+}
+
+.font-smaller {
+  font-size: smaller;
+}
+
+.font-30 {
+  font-size: 36px;
+}
+
+.font-tiempos {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.font-tiempos-italic {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.font-avenir {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
